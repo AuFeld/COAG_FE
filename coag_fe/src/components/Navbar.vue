@@ -22,7 +22,7 @@
         "
       >
         <div class="flex flex-row items-center justify-between p-4">
-          COAG
+          <router-link to="/">COAG</router-link>
           <button
             class="rounded-lg md:hidden focus:outline-none focus:shadow-outline"
             x-click="`window.open = !open`"
@@ -52,7 +52,8 @@
             md:pb-0 md:flex md:justify-end md:flex-row
           "
         >
-          <a
+          <router-link
+            to="/features"
             class="
               px-4
               py-2
@@ -71,10 +72,11 @@
               hover:bg-blueGray-50
               focus:bg-blueGray-200 focus:outline-none focus:shadow-outline
             "
-            href="#features"
-            >Features</a
           >
-          <a
+            <a href="#">Features</a>
+          </router-link>
+          <router-link
+            to="/pricing"
             class="
               px-4
               py-2
@@ -93,10 +95,12 @@
               hover:bg-blueGray-50
               focus:bg-blueGray-200 focus:outline-none focus:shadow-outline
             "
-            href="#pricing"
-            >Pricing</a
           >
-          <a
+            <a href="#">Pricing</a>
+          </router-link>
+
+          <router-link
+            to="/about"
             class="
               px-4
               py-2
@@ -115,10 +119,11 @@
               hover:bg-blueGray-50
               focus:bg-blueGray-200 focus:outline-none focus:shadow-outline
             "
-            href="./blog.html"
-            >Blog</a
           >
-          <a
+            <a href="#">About</a>
+          </router-link>
+          <router-link
+            to="/contact"
             class="
               px-4
               py-2
@@ -137,32 +142,9 @@
               hover:bg-blueGray-50
               focus:bg-blueGray-200 focus:outline-none focus:shadow-outline
             "
-            href="./about.html"
-            >About</a
           >
-          <a
-            class="
-              px-4
-              py-2
-              mt-2
-              text-base text-black
-              transition
-              duration-500
-              ease-in-out
-              transform
-              bg-transparent
-              rounded-lg
-              dark:text-blueGray-300
-              md:mt-0 md:ml-4
-              hover:text-blueGray-900
-              focus:text-blueGray-900
-              hover:bg-blueGray-50
-              focus:bg-blueGray-200 focus:outline-none focus:shadow-outline
-            "
-            href="./contact.html"
-            >Contact</a
-          >
-          Dropdown
+            <a href="#">Contact</a>
+          </router-link>
         </nav>
       </div>
     </div>

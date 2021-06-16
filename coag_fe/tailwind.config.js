@@ -3,7 +3,7 @@ const colors = require("tailwindcss/colors");
 module.exports = {
   purge: { content: ["./public/**/*.html", "./src/**/*.vue"] },
   presets: [],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'media', // or 'media' or 'class'
   theme: {
     screens: {
       sm: "640px",
@@ -17,6 +17,8 @@ module.exports = {
       current: "currentColor",
 
       black: colors.black,
+      blueGray: colors.blueGray,
+      lightBlue: colors.lightBlue,
       white: colors.white,
       gray: colors.coolGray,
       red: colors.red,

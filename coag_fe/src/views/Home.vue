@@ -300,6 +300,24 @@
         </div>
       </div>
     </section>
+    <section class="h-screen border-t text-blueGray-700 border-blueGray-100 body-font dark:border-blueGray-900">
+    <div class="container flex flex-wrap items-center px-5 py-24 mx-auto lg:px-16">
+        <div class="flex flex-col w-full p-8 mt-10 lg:w-4/6 md:w-1/2 md:ml-auto md:mt-0 ">
+            <h1 class="text-5xl font-black text-black dark:text-white lg:text-8xl">Stay
+                Connected.</h1>
+            <p class="mt-4 leading-relaxed dark:text-white">Subscribe for updates.</p>
+        </div>
+        <div class="flex flex-col w-full p-8 lg:w-2/6 md:w-1/2 md:ml-auto lg:mt-10 md:mt-0">
+            <div class="relative mb-4">
+                <input type="email" id="email" name="email" placeholder="email@example.com"
+                    class="w-full px-3 py-1 text-base leading-8 transition-colors duration-200 ease-in-out bg-white border rounded-lg outline-none text-blueGray-700 border-blueGray-300 dark:bg-black dark:border-blueGray-100 focus:border-black">
+            </div>
+            <button
+                class="px-8 py-2 font-bold text-white transition duration-500 ease-in-out transform bg-black border border-transparent rounded-lg dark:hover:text-black focus:outline-none hover:bg-lightBlue-400 dark:border-blueGray-800 dark:bg-blue-700 dark:hover:bg-white ">Subscribe</button>
+            <p class="mt-3 text-xs text-blueGray-500">You won't get spam.</p>
+        </div>
+    </div>
+</section>
   </div>
 </template>
 
