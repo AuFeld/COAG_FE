@@ -145,6 +145,29 @@
           >
             <a href="#">Contact</a>
           </router-link>
+          <router-link
+            to="/login"
+            class="
+              px-4
+              py-2
+              mt-2
+              text-base text-black
+              transition
+              duration-500
+              ease-in-out
+              transform
+              bg-transparent
+              rounded-lg
+              dark:text-blueGray-300
+              md:mt-0 md:ml-4
+              hover:text-blueGray-900
+              focus:text-blueGray-900
+              hover:bg-blueGray-50
+              focus:bg-blueGray-200 focus:outline-none focus:shadow-outline
+            "
+          >
+            <a href="#">Login</a>
+          </router-link>
         </nav>
       </div>
     </div>

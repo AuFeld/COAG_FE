@@ -4,6 +4,8 @@ import Home from "../views/Home.vue";
 import Contact from "../views/Contact.vue";
 import Features from "../views/Features.vue";
 import Pricing from "../views/Pricing.vue";
+import Login from "../views/Login.vue";
+import Register from "../views/Register.vue";
 
 Vue.use(VueRouter);
 
@@ -27,6 +29,16 @@ const routes = [
     path: "/pricing",
     name: "Pricing",
     component: Pricing,
+  },
+  {
+    path: "/login",
+    name: "Login",
+    component: Login,
+  },
+  {
+    path: "/register",
+    name: "Register",
+    component: Register,
   },
   {
     path: "/about",
