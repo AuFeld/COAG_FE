@@ -3,7 +3,7 @@ const colors = require("tailwindcss/colors");
 module.exports = {
   purge: { content: ["./public/**/*.html", "./src/**/*.vue"] },
   presets: [],
-  darkMode: 'media', // or 'media' or 'class'
+  darkMode: "media", // or 'media' or 'class'
   theme: {
     screens: {
       sm: "640px",
@@ -294,17 +294,17 @@ module.exports = {
       "7xl": ["4.5rem", { lineHeight: "1" }],
       "8xl": ["6rem", { lineHeight: "1" }],
       "9xl": ["8rem", { lineHeight: "1" }],
-      '10xl': '8rem',
-      '11xl': '9rem',
-      '12xl': '10rem',
-      '13xl': '11rem',
-      '14xl': '12rem',
-      '15xl': '13rem',
-      '16xl': '14rem',
-      '17xl': '15rem',
-      '18xl': '16rem',
-      '19xl': '17rem',
-      '20xl': '18rem',
+      "10xl": "8rem",
+      "11xl": "9rem",
+      "12xl": "10rem",
+      "13xl": "11rem",
+      "14xl": "12rem",
+      "15xl": "13rem",
+      "16xl": "14rem",
+      "17xl": "15rem",
+      "18xl": "16rem",
+      "19xl": "17rem",
+      "20xl": "18rem",
     },
     fontWeight: {
       thin: "100",
