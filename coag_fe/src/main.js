@@ -3,8 +3,11 @@ import App from "./App.vue";
 import store from "./store";
 import router from "./router";
 import "./assets/tailwind.css";
+import VueCompositionAPI from '@vue/composition-api'
 
 Vue.config.productionTip = false;
+
+Vue.use(VueCompositionAPI);
 
 new Vue({
   store,

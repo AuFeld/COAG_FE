@@ -135,7 +135,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: "SideNav",
+};
 </script>
 
 <style lang="scss" scoped></style>
