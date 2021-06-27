@@ -8,6 +8,7 @@ import Login from "../views/Login.vue";
 import Register from "../views/Register.vue";
 import Dashboard from "../views/Dashboard.vue";
 import Settings from "../views/Settings.vue";
+import AccountHome from "../views/AccountHome.vue";
 
 Vue.use(VueRouter);
 
@@ -46,6 +47,16 @@ const routes = [
     path: "/dashboard",
     name: "Dashboard",
     component: Dashboard,
+    children: [
+      {
+        path: "/dashboard/home",
+        component: AccountHome,
+      },
+      {
+        path: "/dashboard/settings",
+        component: Settings,
+      }
+    ]
   },
   {
     path: "/settings",

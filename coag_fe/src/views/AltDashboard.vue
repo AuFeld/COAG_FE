@@ -126,7 +126,7 @@ import {
   MenuItems,
   TransitionChild,
   TransitionRoot,
-} from '@headlessui/vue'
+} from '../components/headlessui'
 import {
   BellIcon,
   CalendarIcon,
