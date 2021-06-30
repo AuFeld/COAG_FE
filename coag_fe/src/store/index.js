@@ -16,7 +16,7 @@ export default new Vuex.Store({
   },
   actions: {
     async login({ commit }, user) {
-      await axios.post("", user)
+      await axios.post("https://coag-app.herokuapp.com/auth/jwt/login", user)
         .then((res) => {
           console.log(res)
           commit("setCurrentUser", res.data)
@@ -24,7 +24,7 @@ export default new Vuex.Store({
         .catch((err) => console.error(err));
     },
     async register({ commit }, user) {
-      await axios.post("", user)
+      await axios.post("https://coag-app.herokuapp.com/auth/register", user)
         .then((res) => {
           console.log(res)
           commit("setCurrentUser", res.data)

@@ -367,7 +367,15 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      username: "",
+      email: "",
+      password: "",
+    }
+  }
+};
 </script>
 
 <style></style>

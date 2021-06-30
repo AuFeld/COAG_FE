@@ -30,7 +30,7 @@
               <input
                 type="text"
                 class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                value="lucky.jesse"
+                value=""
               />
             </div>
           </div>
@@ -45,7 +45,7 @@
               <input
                 type="email"
                 class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                value="jesse@example.com"
+                value=""
               />
             </div>
           </div>
@@ -60,7 +60,7 @@
               <input
                 type="text"
                 class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                value="Lucky"
+                value=""
               />
             </div>
           </div>
@@ -75,7 +75,7 @@
               <input
                 type="text"
                 class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                value="Jesse"
+                value=""
               />
             </div>
           </div>
@@ -98,7 +98,7 @@
               <input
                 type="text"
                 class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                value="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09"
+                value=""
               />
             </div>
           </div>
@@ -113,7 +113,7 @@
               <input
                 type="email"
                 class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                value="New York"
+                value=""
               />
             </div>
           </div>
@@ -128,7 +128,7 @@
               <input
                 type="text"
                 class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                value="United States"
+                value=""
               />
             </div>
           </div>
@@ -143,7 +143,7 @@
               <input
                 type="text"
                 class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                value="Postal Code"
+                value=""
               />
             </div>
           </div>

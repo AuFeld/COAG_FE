@@ -53,6 +53,7 @@
             >
             <input
               type="email"
+              v-model="email"
               name=""
               id=""
               placeholder="Your Email "
@@ -92,6 +93,7 @@
             >
             <input
               type="password"
+              v-model="password"
               name=""
               id=""
               placeholder="Your Password"
@@ -278,7 +280,7 @@
 export default {
   data() {
     return {
-      username: "",
+      email: "",
       password: "",
     }
   }
