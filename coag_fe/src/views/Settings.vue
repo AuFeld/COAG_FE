@@ -182,7 +182,18 @@
 
 <script>
   export default {
-    
+    data() {
+      return {
+        username: "",
+        email: "",
+        first_name: "",
+        last_name: "",
+        address: "",
+        city: "",
+        state: "",
+        zip: "",
+      }
+    }
   }
 </script>
 

@@ -3,8 +3,8 @@
     <div class="max-w-max lg:max-w-7xl mx-auto">
       <div class="relative z-10 mb-8 md:mb-2 md:px-6">
         <div class="text-base max-w-prose lg:max-w-none">
-          <h2 class="leading-6 text-indigo-600 font-semibold tracking-wide uppercase">Transactions</h2>
-          <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-4xl">A better way to send money</p>
+          <h2 class="leading-6 text-indigo-600 font-semibold tracking-wide uppercase">Career Opportunities and Growth</h2>
+          <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-4xl">A better way to find jobs.</p>
         </div>
       </div>
       <div class="relative">

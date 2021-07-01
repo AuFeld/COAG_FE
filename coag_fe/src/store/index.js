@@ -7,6 +7,7 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   state: {
     userActive: false,
+    token: localStorage.getItem("token") || "",
     user: {},
   },
   mutations: {
@@ -34,6 +35,9 @@ export default new Vuex.Store({
     logout({ commit }) {
       commit("setCurrentUser", null);
     },
+  },
+  getters: {
+    isLoggedIn: (state) => !!state.token,
   },
   modules: {},
 });
