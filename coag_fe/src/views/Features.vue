@@ -69,6 +69,7 @@
 import CheckLogo from "../../public/icon-check.svg";
 
 export default {
+  name: "Features",
   components: {
     CheckLogo,
   },

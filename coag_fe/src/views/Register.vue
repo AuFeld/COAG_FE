@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="pt-12">
     <section class="flex flex-col items-center h-screen md:flex-row">
       <div class="container mx-auto">
         <div class="flex justify-center px-2 py-6">
@@ -167,6 +167,83 @@
                   </button>
                 </div>
                 <form class="mt-6" action="#" method="POST">
+                                    <div class="flex flex-wrap mt-4 mb-6 -mx-3">
+                    <div class="w-full px-3 mb-6 md:w-1/2 md:mb-0">
+                      <label
+                        class="
+                          text-base
+                          font-medium
+                          leading-relaxed
+                          text-blueGray-700
+                        "
+                        for="first_name"
+                        minlength="6"
+                      >
+                        First Name
+                      </label>
+                      <input
+                        class="
+                          block
+                          w-full
+                          px-4
+                          py-2
+                          mt-2
+                          text-base text-black
+                          transition
+                          duration-500
+                          ease-in-out
+                          transform
+                          border-transparent
+                          rounded-lg
+                          bg-blueGray-100
+                          focus:outline-none focus:shadow-outline focus:ring-2
+                          ring-offset-current ring-offset-2
+                          ext-black
+                          focus:border-blueGray-500
+                        "
+                        id="first_name"
+                        type="text"
+                        placeholder="First Name"
+                      />
+                    </div>
+                    <div class="w-full px-3 md:w-1/2">
+                      <label
+                        class="
+                          text-base
+                          font-medium
+                          leading-relaxed
+                          text-blueGray-700
+                        "
+                        for="last_name"
+                      >
+                        Last Name
+                      </label>
+                      <input
+                        class="
+                          block
+                          w-full
+                          px-4
+                          py-2
+                          mt-2
+                          text-base text-black
+                          transition
+                          duration-500
+                          ease-in-out
+                          transform
+                          border-transparent
+                          rounded-lg
+                          bg-blueGray-100
+                          focus:outline-none focus:shadow-outline focus:ring-2
+                          ring-offset-current ring-offset-2
+                          ext-black
+                          focus:border-blueGray-500
+                        "
+                        id="last_name"
+                        type="text"
+                        placeholder="Last Name"
+                      />
+                    </div>
+                  </div>
                   <div>
                     <label
                       class="
@@ -345,7 +422,7 @@
                       hover:to-black
                     "
                   >
-                    Log In
+                    Sign Up
                   </button>
                 </form>
                 <p class="mt-8 text-center text-black">
@@ -368,12 +445,19 @@
 
 <script>
 export default {
+  name: "Register",
   data() {
     return {
+      first_name: "",
+      last_name: "",
       username: "",
       email: "",
       password: "",
+      confirm_password: "",
     }
+  },
+  methods: {
+
   }
 };
 </script>

@@ -37,7 +37,7 @@
         <div
           class="flex flex-col mb-4 justify-left lg:justify-center md:flex-row"
         >
-          <a href="#intro">
+          <router-link to="/register">
             <button
               class="
                 inline-flex
@@ -62,9 +62,9 @@
                 focus:outline-none
               "
             >
-              Action
+              Sign Up
             </button>
-          </a>
+          </router-link>
         </div>
         <p
           class="
@@ -119,7 +119,7 @@
               lg:text-6xl
             "
           >
-            Medium length display headline.
+            Job Searching, simplified.
           </h1>
           <p
             class="
@@ -130,9 +130,7 @@
               dark:text-blueGray-400
             "
           >
-            You're about to launch and must be 100% focused on your product.
-            Don't lose precious days designing a landing page and testing.
-            Instead, integrate one with your favourite framework..
+            One of the most difficult aspects of job searching is surfacing quality opportunities. You want to work for a company that "gets" you. COAG takes your skills and matches you with exciting jobs at rapidly growing companies.
           </p>
         </div>
         <div class="flex flex-wrap -m-4">

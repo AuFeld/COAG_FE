@@ -14,6 +14,9 @@ export default new Vuex.Store({
     setCurrentUser(state, user) {
       state.user = user
     },
+    updateUserProfile(state, user) {
+      state.user = user
+    },
   },
   actions: {
     async login({ commit }, user) {
@@ -35,6 +38,13 @@ export default new Vuex.Store({
     logout({ commit }) {
       commit("setCurrentUser", null);
     },
+    updateUser({ commit }, user) {
+      axios.patch(`https://coag-app.herokuapp.com/users/${user.id}`, user)
+        .then((res) => {
+          commit("updateUserProfile", res.data);
+        })
+        .catch((err) => console.error(err))
+    }
   },
   getters: {
     isLoggedIn: (state) => !!state.token,

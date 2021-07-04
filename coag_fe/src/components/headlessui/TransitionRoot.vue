@@ -45,10 +45,10 @@
       leaveTo: {
         type: String,
       },
-    }
+    },
+    methods: {},
+    computed: {
+      
+    },
   }
 </script>
-
-<style lang="scss" scoped>
-
-</style>
