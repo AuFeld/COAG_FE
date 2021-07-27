@@ -283,8 +283,16 @@ export default {
     return {
       email: "",
       password: "",
-    }
-  }
+    };
+  },
+  methods: {
+    login: function () {
+      this.$store
+        .dispatch("login", { username: this.username, password: this.password })
+        .then(() => this.$router.push("/dashboard"))
+        .catch((err) => console.log(err));
+    },
+  },
 };
 </script>
 

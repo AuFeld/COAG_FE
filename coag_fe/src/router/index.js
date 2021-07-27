@@ -9,6 +9,7 @@ import Register from "../views/Register.vue";
 import Dashboard from "../views/Dashboard.vue";
 import Settings from "../views/Settings.vue";
 import AccountHome from "../views/AccountHome.vue";
+import Jobs from "../views/Jobs.vue"
 
 Vue.use(VueRouter);
 
@@ -53,15 +54,15 @@ const routes = [
         component: AccountHome,
       },
       {
+        path: "/dashboard/jobs",
+        component: Jobs,
+      },
+      {
         path: "/dashboard/settings",
         component: Settings,
-      }
+      },
+      
     ]
-  },
-  {
-    path: "/settings",
-    name: "Settings",
-    component: Settings,
   },
   {
     path: "/about",
